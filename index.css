@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+}
+
+#left-image{
+    display: inline-block;
+    position: relative;
+}
+
+#back-image{
+    display: block;
+    height: 100vh;
+}
+
+#odin-image-div{
+    height: 20vh;
+    width: 492px; /*dejemoslo como pagina estatica y este es el tamaño de la imagen principal del fondo*/
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    
+}
+
+#odin-image{
+    height: 90%;
+    margin-top: 8px;
+    margin-left: 80px;
+    display: inline;
+}
+
+#odin-char{
+    position: relative;
+    margin-top: -130px;
+    margin-left: 140px;
+    color:white;
+    font-size: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#right-container{
+    display: inline-block;
+    position: absolute;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 1027px;
+}
+
+/*sirve para elegir el primer elemento del right-container*/
+#right-container > p:first-of-type{
+    padding-top: 100px;
+}
+
+p{
+    padding-left: 40px;
+}
+
+.inner-container{
+    height: 33vh;
+    background-color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.row{
+    display: block;
+    padding-left: 40px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+
+label{
+    position: absolute;
+    margin-top: -20px;
+}
+
+button{
+    margin-left: 40px;
+    background-color: rgb(13, 91, 13);
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(3, 71, 3, 0.581);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(13, 91, 13);
+}
+
+a:hover{
+    color: rgb(11, 146, 11);
+}
